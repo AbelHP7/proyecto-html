@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre">
+    <meta name="description" content="Página de productos">
+    <title>Productos - Mi Comercio Electrónico</title>
+    <link rel="icon" type="image/x-icon" href="/Proyecto/imagenes/rastreo.png">
+    <style>
+        .centrado {
+            text-align: center;
+            color: rgb(12, 11, 11);
+        }
+        /* Para que la imagenes a poner el cursor se agrande */
+        .imagen-hover {
+            
+            overflow: hidden;     
+            text-align: center;
+            width: 50%;
+            height: 40%;
+     
+        }
+
+        
+        .imagen-hover img {
+            transition: transform 0.3s ease; 
+            
+           
+        }
+
+        
+        .imagen-hover:hover img {
+            transform: scale(1.1); 
+            
+        }
+        img{
+            width: 250px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+        <table border="1" width="100%" >
+            <tr>
+                <td class="centrado"  colspan="3">
+                    <header>
+                        <h1><i><img src="/Proyecto/imagenes/adidas.png"></i></h1>
+                    </header>
+                </td>
+            </tr>
+            <tr>
+                <td class="centrado" colspan="3">
+                    <nav>
+                        <a href="/Proyecto/index.html">Inicio</a> | 
+                        <a href="/Proyecto/Productos/productos.html">Productos</a> | 
+                        <a href="/Proyecto/contacto/contacto.html">Contacto</a>
+                    </nav>
+                </td>
+            </tr>
+            <tr class="celdas">
+                <td class="imagen-hover" colspan="1">
+                    <a href="https://www.zalando.es/adidas-sportswear-m-3s-chelsea-shorts-blackwhite-adq42e004-q11.html"><img src="/Proyecto/imagenes/adidas 3.png" alt="adidas pantalon "title="Comprar"></a><br>
+                </td>
+                <td class="imagen-hover"   colspan="1">
+                    <a href="https://www.zalando.es/adidas-originals-street-apetit-unisex-camiseta-estampada-collegiate-green-ad12100fv-m11.html"><img src="/Proyecto/imagenes/adidas 2.png"alt="adidas camiseta "title="Comprar"></a><br>
+                </td>
+                <td class="imagen-hover"   colspan="1">
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="imagen-hover"   colspan="1">
+                    <a href="https://www.zalando.es/adidas-originals-alt-tee-unisex-camiseta-estampada-black-ad12100g1-q11.html"><img src="/Proyecto/imagenes/camiseta adidas 1.png" alt="Adidas forum" title="Comprar"></a><br>
+                </td>
+                <td class="imagen-hover"   colspan="1">
+                    <a href="https://www.zalando.es/adidas-originals-shorts-black-ad122f0a4-q11.html"><img src="/Proyecto/imagenes/adidas 4.png" alt="Adidas pantalon " title="Comprar"></a><br>
+                </td>
+            </tr>
+            
+           
+
+    </table>
+</body>
+</html>
