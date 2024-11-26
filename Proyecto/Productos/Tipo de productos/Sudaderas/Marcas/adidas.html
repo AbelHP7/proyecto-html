@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre">
+    <meta name="description" content="Página de productos">
+    <title>Productos - Mi Comercio Electrónico</title>
+    <link rel="icon" type="image/x-icon" href="/Proyecto/imagenes/rastreo.png">
+    <style>
+        .centrado {
+            text-align: center;
+            color: rgb(12, 11, 11);
+        }
+        /* Para que la imagenes a poner el cursor se agrande */
+        .imagen-hover {
+            
+            overflow: hidden;     
+            text-align: center;
+            width: 50%;
+            height: 40%;
+     
+        }
+
+        
+        .imagen-hover img {
+            transition: transform 0.3s ease; 
+            
+           
+        }
+
+        
+        .imagen-hover:hover img {
+            transform: scale(1.1); 
+            
+        }
+        img{
+            width: 250px;
+            
+        }
+    
+        #barra{
+            background-color:rgb(236, 230, 230);
+            color:white;
+            text-align: center;
+
+        }
+        #pie{
+            background-color:rgb(236, 230, 230);
+            color:white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+        <table border="1" width="100%" >
+            <tr>
+                <td class="centrado"  colspan="3">
+                    <header>
+                        <h1><img src="/Proyecto/imagenes/adidas.png"></h1>
+                    </header>
+                </td>
+            </tr>
+            <tr>
+                <td id="barra"   colspan="3">
+                    <nav>
+                        <a href="/Proyecto/index.html">Inicio</a> | 
+                        <a href="/Proyecto/Productos/productos.html">Productos</a> | 
+                        <a href="/Proyecto/contacto/contacto.html">Contacto</a>
+                    </nav>
+                </td>
+            </tr>
+            <tr class="celdas">
+                <td class="imagen-hover" colspan="1">
+                    <article><a href="https://www.zalando.es/adidas-sportswear-sudadera-beige-adq42g02n-b11.html"><img src="/Proyecto/imagenes/sudadera adidas 1.png" alt="adidas sudaderas"title="Comprar"></a></article><br>
+                </td>
+                <td class="imagen-hover"   colspan="1">
+                    <article><a href="https://www.zalando.es/adidas-originals-oversize-crew-sudadera-black-ad122s0u5-q11.html"><img src="/Proyecto/imagenes/sudadera adidas 2.png" alt="adidas sudaderas" title="Comprar"></a></article><br>
+                </td>
+                <td class="imagen-hover"   colspan="1">
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="imagen-hover"   colspan="1">
+                    <article><a href="https://www.zalando.es/adidas-sportswear-m-3s-fl-fz-sudadera-con-cremallera-black-adq42g00j-q11.html"><img src="/Proyecto/imagenes/sudaderas adidas3.png" alt="adidas sudadera"title="Comprar"></a></article><br>
+                </td>
+                <td class="imagen-hover"   colspan="1">
+                    <article><a href="https://www.zalando.es/adidas-originals-archive-hoodie-sudadera-blackbetter-scarlet-ad122s0ua-q11.html"><img src="/Proyecto/imagenes/sudaderas 4.png" alt="adidas sudadera"title="Comprar"></a></article><br>
+                </td>
+            </tr>
+            <tr>
+                <td class="imagen-hover"   colspan="1">
+                    <article><a href="https://www.zalando.es/adidas-performance-entrada-hoody-jersey-con-capucha-black-ad542g14t-q11.html"><img src="/Proyecto/imagenes/sudadera 5.png" alt="adidas sudadera"title="Comprar"></a></article><br>
+                </td>
+                <td class="imagen-hover"   colspan="1">
+                    <article><a href="https://www.zalando.es/adidas-originals-chaqueta-de-entrenamiento-night-indigo-ad122t0dc-k12.html"><img src="/Proyecto/imagenes/sudadera 6.png" alt="adidas sudadera"title="Comprar"></a></article><br>
+                </td>
+            </tr>
+            <tr>
+                <td id="pie" colspan="2"><footer><a href="/Proyecto/Productos/Tipo de productos/Sudaderas/sudaderas.html">Atras</a></footer></td>
+            </tr>
+           
+
+    </table>
+</body>
+</html>
