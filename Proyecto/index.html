@@ -8,20 +8,44 @@
     <title>Inicio - Mi Comercio Electrónico</title>
     <link rel="icon" type="image/x-icon" href="/Proyecto/imagenes/rastreo.png">
     <style>
+        .centrado{
+            text-align: center;
+            width: 1000px;
+            height: 100px;
+        }
+        #title{
+            background-color:blue;
+            text-align: center;
+        }
          #barra{
             background-color:rgb(236, 230, 230);
             color:white;
             text-align: center;
 
         }
+        img{
+            width: 100px;
+            
+        }
+        .imagen-hover img {
+            transition: transform 0.3s ease; 
+            text-align: center;
+           
+        }
+
+        
+        .imagen-hover:hover img {
+            transform: scale(1.1); 
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <table border="1" width="100%">
         <tr>
-            <td colspan="3">
+            <td id="title"colspan="3">
                 <header>
-                   <h1><i>Bienvenidos a Mi Comercio Electrónico</i></h1>
+                   <h1><i>Bienvenidos a Mi Comercio Electrónico.</i></h1>
                 </header>
             </td>
         </tr>
@@ -37,15 +61,43 @@
         <tr>
             <td colspan="3">
                 <section>
-                    <h2>Sobre Nosotros</h2>
-                    <p>Somos un equipo comprometido con brindar productos de calidad a precios accesibles.</p>
+                    <h2><i>Sobre el negocio</i></h2>
+                    <p>Somos un equipo comprometido con brindar productos de calidad a precios accesibles y ante todo una buena comodidad.</p>
+                    <p>Ademas con una gran variedad de productos para el cliente.</p><br>
+                    <h3>Alta Essenza.</h3>
+                    
+                    <img src="/Proyecto/imagenes/rastreo.png">
                 </section>
+            </td>
+        </tr>
+        <tr>
+            
+            <td class="centrado"colspan="3">
+
+                <h2><strong><i>Objetivos de desarrollo sostenible</i></strong></h2>
+            </td>
+        </tr>
+        <tr>
+            <td class="imagen-hover" colspan="3">
+                <a href="https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/"><img src="/Proyecto/imagenes/ODS 1.png" alt="ODS 12 "title="Ir"></a>
+                
+                <a href="https://www.un.org/sustainabledevelopment/es/economic-growth/"><img src="/Proyecto/imagenes/ODS 2.png" alt="ODS 8 "title="Ir"></a>
+            </td>
+        </tr>
+       
+        <tr>
+            
+            <td colspan="3">
+                <img src="/Proyecto/imagenes/NIKE.png">
+                <img src="/Proyecto/imagenes/adidas.png">
+                <img src="/Proyecto/imagenes/new balance 2.png">
+                <img src="/Proyecto/imagenes/grmy1.png" >
             </td>
         </tr>
         <tr>
             <td colspan="3">
                 <footer>
-                    <p>&copy; 2024 Mi Comercio Electrónico. Licencia <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>.</p>
+                    <p>&copy; 2024 Mi Comercio Electrónico. Licencia <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>.
                 </footer>
             </td>
         </tr>
