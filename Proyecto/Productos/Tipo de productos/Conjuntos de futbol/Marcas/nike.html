@@ -3,109 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tu Nombre">
-    <meta name="description" content="Página de productos">
-    <title>Productos - Mi Comercio Electrónico</title>
-    <link rel="icon" type="image/x-icon" href="/Proyecto/imagenes/rastreo.png">
-    <style>
-        .centrado {
-            text-align: center;
-            color: rgb(12, 11, 11);
-            background-image: url('/Proyecto/imagenes/fondo3.png'); 
-        }
-        /* Para que la imagenes a poner el cursor se agrande */
-        .imagen-hover {
-            
-            overflow: hidden;     
-            text-align: center;
-            width: 50%;
-            height: 40%;
-     
-        }
-
-        
-        .imagen-hover img {
-            transition: transform 0.3s ease; 
-            
-           
-        }
-
-        
-        .imagen-hover:hover img {
-            transform: scale(1.1); 
-            
-        }
-        img{
-            width: 250px;
-            
-        }
-        #barra{
-            background-color:rgb(236, 230, 230);
-            color:white;
-            text-align: center;
-
-        }
-        #pie{
-            background-color:rgb(236, 230, 230);
-            color:white;
-            text-align: center;
-        }
-    </style>
+    <meta name="author" content="Abel Hernández">
+    <meta name="description" content="Página de productos Nike">
+    <title>Productos - Nike</title>
+    <link rel="stylesheet" type="text/css" href="nike.css"> 
 </head>
 <body>
+    <header>
+        <img src="../../../../imagenes/NIKE.png" alt="Nike Logo" class="logo">
+    </header>
     
-        <table border="1" width="100%" >
-            <tr>
-                <td class="centrado"  colspan="3">
-                    <header>
-                        <h1><img src="/Proyecto/imagenes/NIKE.png"></h1>
-                    </header>
-                </td>
-            </tr>
-            <tr>
-                
-                <td id="barra"   colspan="3">
-                    <nav>
-                        <a href="/Proyecto/index.html">Inicio</a> | 
-                        <a href="/Proyecto/Productos/productos.html">Productos</a> | 
-                        <a href="/Proyecto/contacto/contacto.html">Contacto</a>
-                    </nav>
-                </td>
-            </tr>
-            <tr class="celdas">
-                <td class="imagen-hover" colspan="1">
-                    <article><a href="https://www.zalando.es/nike-performance-top-camiseta-de-futbol-blacknoble-redorewood-brown-n1242d6kj-q11.html"><img src="/Proyecto/imagenes/camiseta barcelona.png" alt="camiseta barcelona "title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/nike-performance-top-camiseta-de-futbol-geode-tealbordeauxguava-ice-n1242d6k8-p11.html"><img src="/Proyecto/imagenes/camiseta psg.png"alt="camiseta psg "title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                </td>
-                
-            </tr>
-            <tr>
-                <td class="imagen-hover"   colspan="1">
-                    <article> <a href="https://www.zalando.es/nike-performance-equipacion-de-clubes-midnight-navyclub-gold-n1242d6i0-k11.html"><img src="/Proyecto/imagenes/camiseta barcelona 2.png" alt="camiseta barcelona "title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/nike-performance-cfc-equipacion-de-clubes-obsidianguava-ice-n1242d6je-k11.html"><img src="/Proyecto/imagenes/camiseta chelsea.png" alt="camiseta chelsea "title="Comprar"></a></article><br>
-                </td>
-            </tr>
-            <tr>
-                <td class="imagen-hover"   colspan="1">
-                    <article> <a href="https://www.zalando.es/nike-sportswear-tee-open-camiseta-estampada-white-ni122o13u-a11.html"><img src="/Proyecto/imagenes/camiseta liverpool.png" alt="camiseta liverpool" title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/nike-performance-camiseta-deportiva-pink-glowblue-void-n1242d6pa-j11.html"><img src="/Proyecto/imagenes/camiseta atletico madrid.png" alt="camiseta atletico de madrid "title="Comprar"></a></article><br>
-                </td>
-            </tr>
-            <tr>
-                
-                <td id="pie" colspan="2"><footer><a href="/Proyecto/Productos/Tipo de productos/Conjuntos de futbol/conjuntosfutbol.html">Atras</a></footer></td>
-            </tr>
-            
-           
-
-    </table>
+    <nav class="navbar">
+        <a href="../../../../index.html">Inicio</a>
+        <a href="../../../productos.html">Productos</a>
+        <a href="../../../../contacto/contacto.html">Contacto</a>
+    </nav>
+    
+    <main class="productos-container">
+        <div class="producto">
+            <a href="https://www.zalando.es/nike-performance-top-camiseta-de-futbol-blacknoble-redorewood-brown-n1242d6kj-q11">
+                <img src="../../../../imagenes/camiseta barcelona.png" alt="Camiseta Barcelona">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="https://www.zalando.es/nike-performance-top-camiseta-de-futbol-geode-tealbordeauxguava-ice-n1242d6k8-p11">
+                <img src="../../../../imagenes/camiseta psg.png" alt="Camiseta PSG">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="https://www.zalando.es/nike-performance-equipacion-de-clubes-midnight-navyclub-gold-n1242d6i0-k11">
+                <img src="../../../../imagenes/camiseta barcelona 2.png" alt="Camiseta Barcelona 2">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="https://www.zalando.es/nike-performance-cfc-equipacion-de-clubes-obsidianguava-ice-n1242d6je-k11">
+                <img src="../../../../imagenes/camiseta chelsea.png" alt="Camiseta Chelsea">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="https://www.zalando.es/nike-sportswear-tee-open-camiseta-estampada-white-ni122o13u-a11">
+                <img src="../../../../imagenes/camiseta liverpool.png" alt="Camiseta Liverpool">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="https://www.zalando.es/nike-performance-camiseta-deportiva-pink-glowblue-void-n1242d6pa-j11">
+                <img src="../../../../imagenes/camiseta atletico madrid.png" alt="Camiseta Atlético de Madrid">
+            </a>
+        </div>
+    </main>
+    
+    <footer>
+        <a href="../../Conjuntos de futbol/conjuntosfutbol.html">Atrás</a>
+    </footer>
 </body>
 </html>

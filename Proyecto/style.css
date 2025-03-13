@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-image: url(/Proyecto/imagenes/fondo\ todo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Cabezado */
+#title {
+    color: white;
+    width: 100%;
+    padding: 40px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 1.8rem;
+    margin-top: 30px; /* Mayor separación con la barra de navegación */
+}
+
+/* BARRA DE NAVEGACIÓN */
+#barra {
+    background-color: #333;
+    padding: 15px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', sans-serif; 
+}
+
+#barra a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.2rem;
+}
+
+#barra a:hover {
+    color: #ffcc00;
+}
+
+/* SECCIONES PRINCIPALES */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 80px; /* Ajusta la distancia con la barra de navegación */
+}
+
+/* SOBRE EL NEGOCIO */
+.sobre-negocio,
+.ods,
+.marcas {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.sobre-negocio h2,
+.ods h2 {
+    font-style: italic;
+}
+
+.sobre-negocio img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* ODS */
+.ods-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.ods-links img {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ods-links a:hover img {
+    transform: scale(1.1);
+}
+
+/* MARCAS */
+.marcas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.marcas img {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.marcas img:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

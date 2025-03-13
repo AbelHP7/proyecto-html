@@ -1,0 +1,18 @@
+#barra{
+    background-color:rgb(236, 230, 230);
+    color:white;
+    text-align: center;
+    
+
+}
+
+td,tr{
+    text-align: center;
+}
+header
+{
+    background-image: url(./../imagenes/fondo\ todo.jpg);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}

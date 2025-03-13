@@ -1,0 +1,61 @@
+/* nike.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    padding: 40px 0;
+}
+
+header img {
+    width: 150px;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 150px;
+    border-radius: 10px;
+}
