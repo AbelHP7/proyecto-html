@@ -1,61 +1,83 @@
-/* nike.css */
+/* General */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f8f8f8;
     text-align: center;
 }
 
-header {
-    padding: 40px 0;
+/* Header */
+.header {
+    background: url('../../../../imagenes/fondo.jpg') no-repeat center center/cover;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
 }
 
-header img {
-    width: 150px;
-}
-
-nav {
-    background-color: #f0f0f0;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    font-weight: bold;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
+/* Navbar */
+.nav-bar {
+    background-color: #f2ecec;
     padding: 10px;
-    transition: color 0.3s;
 }
 
-nav a:hover {
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.nav-bar a:hover {
     color: #ff0000;
 }
 
-.productos {
+/* Contenedor de marcas */
+.contenedor {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
+    padding: 30px;
 }
 
-.producto {
-    background: white;
+/* Cajas de cada marca */
+.marca {
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    transition: transform 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(../../../../imagenes/fondo\ 2.jpg);
 }
 
-.producto:hover {
+.marca:hover {
     transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.producto img {
-    width: 150px;
-    border-radius: 10px;
+/* Imágenes dentro de las cajas */
+.marca img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    padding: 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #ff0000;
 }

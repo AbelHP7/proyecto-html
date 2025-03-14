@@ -3,122 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Abel Hernández">    <meta name="description" content="Página de productos">
-    <title>Productos - Mi Comercio Electrónico</title>
+    <meta name="author" content="Abel Hernández">
+    <meta name="description" content="Página de productos Nike">
+    <title>Productos - Nike</title>
     <link rel="icon" type="image/x-icon" href="../../../../imagenes/rastreo.png">
-    <link rel="stylesheet" type="text/css" href="nike.css">
-    <style>
-        .centrado {
-            text-align: center;
-            color: rgb(12, 11, 11);
-            background-image: url('/Proyecto/imagenes/fondo3.png'); 
-        }
-        /* Para que la imagenes a poner el cursor se agrande */
-        .imagen-hover {
-            
-            overflow: hidden;     
-            text-align: center;
-            width: 50%;
-            height: 40%;
-     
-        }
-
-        
-        .imagen-hover img {
-            transition: transform 0.3s ease; 
-            
-           
-        }
-
-        
-        .imagen-hover:hover img {
-            transform: scale(1.1); 
-            
-        }
-        img{
-            width: 250px;
-            
-        }
-        #barra{
-            background-color:rgb(236, 230, 230);
-            color:white;
-            text-align: center;
-
-        }
-        #pie{
-            background-color:rgb(236, 230, 230);
-            color:white;
-            text-align: center;
-        }
-        table,td,tr{
-       border: 1px solid black;
-        }
-        body{
-            padding: 0%;
-            margin: 0%;
-        }
-        table{
-            height: 100vh;
-            width: 100%;
-            margin: 0%;
-            padding: 0%;
-            border-collapse: collapse;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="nike.css"> 
 </head>
 <body>
+    <header class="header">
+        <h1><img src="../../../../imagenes/NIKE.png" alt="Nike"></h1>
+    </header>
     
-        <table border="1" width="100%" >
-            <tr>
-                <td class="centrado"  colspan="3">
-                    <header>
-                        <h1><img src="../../../../imagenes/NIKE.png"></h1>
-                    </header>
-                </td>
-            </tr>
-            <tr>
-                <td id="barra"   colspan="3">
-                    <nav>
-                        <a href="../../../../index.html">Inicio</a> | 
-                        <a href="../../../productos.html">Productos</a> | 
-                        <a href="../../../../contacto/contacto.html">Contacto</a>
-                    </nav>
-                </td>
-            </tr>
-            <tr class="celdas">
-                <td class="imagen-hover" colspan="1">
-                    <article><a href="https://www.zalando.es/nike-sportswear-club-oversized-crew-sudadera-blackwhite-ni122s0rg-q11.html"><img src="../../../../imagenes/sudadera nike 1.png" alt="nike sudadera "title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/nike-sportswear-club-hoodie-sudadera-con-cremallera-blackblackwhite-ni122s0au-q11.html"><img src="../../../../imagenes/sudadera nike 2.png" alt="nike sudadera "title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                </td>
-                
-            </tr>
-            <tr>
-                <td class="imagen-hover"   colspan="1">
-                    <article> <a href="https://www.zalando.es/nike-sportswear-jersey-con-capucha-black-ni122s0s2-q11.html"><img src="../../../../imagenes/sudaderas nike 3.png"alt="nike sudadera "title="Comprar"></a></article><br>
-                </td>
-               
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/nike-performance-sudadera-con-cremallera-blackpink-prime-n1242g1hz-q11.html"><img src="../../../../imagenes/sudadera nike 4.png" alt="nike sudadera "title="Comprar"></a></article><br>
-                </td>
-            </tr>
-            <tr>
-                <td class="imagen-hover"   colspan="1">
-                    <article> <a href="https://www.zalando.es/nike-performance-nba-crew-sudadera-blackpale-ivorylight-pumice-n1242g1hh-q11.html"><img src="../../../../imagenes/sudaderas nike 5.png"alt="nike sudadera "title="Comprar"></a></article><br>
-                </td>
-               
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/nike-sportswear-air-forro-polar-blackmetallic-gold-ni122s0rr-q12.html"><img src="../../../../imagenes/sudadera nike 6.png" alt="nike sudadera "title="Comprar"></a></article><br>
-                </td>
-            </tr>
-            <tr>
-                <tr><td id="pie" colspan="2"><footer><a href="../sudaderas.html">Atras</a></footer></td></tr>
-            </tr>
-           
-
-    </table>
+    <nav class="nav-bar">
+        <a href="../../../../index.html">Inicio</a>
+        <a href="../../../productos.html">Productos</a>
+        <a href="../../../../contacto/contacto.html">Contacto</a>
+    </nav>
+    
+    <div class="contenedor">
+        <div class="marca">
+            <a href="https://www.zalando.es/nike-sportswear-club-oversized-crew-sudadera-blackwhite-ni122s0rg-q11.html">
+                <img src="../../../../imagenes/sudadera nike 1.png" alt="Nike Sudadera" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/nike-sportswear-club-hoodie-sudadera-con-cremallera-blackblackwhite-ni122s0au-q11.html">
+                <img src="../../../../imagenes/sudadera nike 2.png" alt="Nike Sudadera" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/nike-sportswear-jersey-con-capucha-black-ni122s0s2-q11.html">
+                <img src="../../../../imagenes/sudaderas nike 3.png" alt="Nike Sudadera" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/nike-performance-sudadera-con-cremallera-blackpink-prime-n1242g1hz-q11.html">
+                <img src="../../../../imagenes/sudadera nike 4.png" alt="Nike Sudadera" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/nike-performance-nba-crew-sudadera-blackpale-ivorylight-pumice-n1242g1hh-q11.html">
+                <img src="../../../../imagenes/sudaderas nike 5.png" alt="Nike Sudadera" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/nike-sportswear-air-forro-polar-blackmetallic-gold-ni122s0rr-q12.html">
+                <img src="../../../../imagenes/sudadera nike 6.png" alt="Nike Sudadera" title="Comprar">
+            </a>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <a href="../sudaderas.html">Atrás</a>
+    </footer>
 </body>
 </html>

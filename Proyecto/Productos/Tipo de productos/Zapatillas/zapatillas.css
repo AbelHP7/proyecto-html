@@ -1,0 +1,79 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del body */
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Encabezado principal */
+#title {
+    background-image: url('../../../imagenes/fondo todo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Barra de navegación */
+#barra {
+    background-color: #333;
+    padding: 15px;
+}
+
+#barra a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+#barra a:hover {
+    color: #ffcc00;
+}
+
+/* Contenedor de marcas */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+}
+
+/* Estilo de cada marca */
+.marca {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.marca:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imágenes */
+.marca img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.marca img:hover {
+    transform: scale(1.1);
+}

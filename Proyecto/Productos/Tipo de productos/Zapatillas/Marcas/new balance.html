@@ -4,111 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Abel Hernández">
-    <meta name="description" content="Página de productos">
-    <title>Productos - Mi Comercio Electrónico</title>
+    <meta name="description" content="Página de productos New Balance">
+    <title>Productos - New Balance</title>
     <link rel="icon" type="image/x-icon" href="../../../../imagenes/rastreo.png">
-    <link rel="stylesheet" type="text/css" href="newbalance.css">
-    <style>
-        .centrado {
-            text-align: center;
-            color: rgb(12, 11, 11);
-            background-image: url('/Proyecto/imagenes/fondo3.png'); 
-        }
-        /* Para que la imagenes a poner el cursor se agrande */
-        .imagen-hover {
-            
-            overflow: hidden;     
-            text-align: center;
-            width: 50%;
-            height: 50%;
-     
-        }
-
-        
-        .imagen-hover img {
-            transition: transform 0.3s ease; 
-            
-           
-        }
-
-        
-        .imagen-hover:hover img {
-            transform: scale(1.1); 
-            
-        }
-        img{
-            width: 300px;
-            
-        }
-        #barra{
-            background-color:rgb(236, 230, 230);
-            color:white;
-            text-align: center;
-
-        }
-        #pie{
-            background-color:rgb(236, 230, 230);
-            color:white;
-            text-align: center;
-        }
-        table,td,tr{
-       border: 1px solid black;
-        }
-        body{
-            padding: 0%;
-            margin: 0%;
-        }
-        table{
-            height: 100vh;
-            width: 100%;
-            margin: 0%;
-            padding: 0%;
-            border-collapse: collapse;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="newbalance.css"> 
 </head>
 <body>
+    <header class="header">
+        <h1><img src="../../../../imagenes/new balance 2.png" alt="New Balance"></h1>
+    </header>
     
-        <table  width="100%" >
-            <tr>
-                <td class="centrado"  colspan="3">
-                    <header>
-                        <h1><img src="../../../../imagenes/new balance 2.png"></h1>
-                    </header>
-                </td>
-            </tr>
-            <tr>
-                <td id="barra"   colspan="3">
-                    <nav>
-                        <a href="../../../../index.html">Inicio</a> | 
-                        <a href="../../../productos.html">Productos</a> | 
-                        <a href="../../../../contacto/contacto.html">Contacto</a>
-                    </nav>
-                </td>
-            </tr>
-            <tr class="celdas">
-                <td class="imagen-hover" colspan="1">
-                    <article><a href="https://www.zalando.es/new-balance-mr530-unisex-zapatillas-sea-salt-ne215o0jm-a11.html"><img src="../../../../imagenes/new balance MR530 UNISEX .png" alt="new balance MR530 UNISEX  "title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/new-balance-u9060-unisex-zapatillas-black-ne215o0e1-q11.html"><img src="../../../../imagenes/new balance U9060 UNISEX.png" alt="new balance U9060 UNISEX" title="Comprar"></a></article><br>
-                </td>
-                
-            </tr>
-            <tr>
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/new-balance-m2002-unisex-zapatillas-dark-grey-ne215o0b1-c11.html"><img src="../../../../imagenes/new balance M2002 UNISEX .png" alt="new balance M2002 UNISEX" title="Comprar"></a></article><br>
-                </td>
-                <td class="imagen-hover"   colspan="1">
-                    <article><a href="https://www.zalando.es/new-balance-bbw550-zapatillas-white-ne211a0p7-a11.html"><img src="../../../../imagenes/new balance 550 W.png" alt="new balance 550 W " title="Comprar"></a></article><br>
-                </td>
-            </tr>
-            <tr>
-                <td id="pie" colspan="2"><footer><a href="../../Zapatillas/Zapatillas.html">Atras</a></footer></td>
-            </tr>
-           
-           
-
-    </table>
+    <nav class="nav-bar">
+        <a href="../../../../index.html">Inicio</a>
+        <a href="../../../productos.html">Productos</a>
+        <a href="../../../../contacto/contacto.html">Contacto</a>
+    </nav>
+    
+    <div class="contenedor">
+        <div class="marca">
+            <a href="https://www.zalando.es/new-balance-mr530-unisex-zapatillas-sea-salt-ne215o0jm-a11.html">
+                <img src="../../../../imagenes/new balance MR530 UNISEX .png" alt="New Balance MR530 UNISEX" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/new-balance-u9060-unisex-zapatillas-black-ne215o0e1-q11.html">
+                <img src="../../../../imagenes/new balance U9060 UNISEX.png" alt="New Balance U9060 UNISEX" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/new-balance-m2002-unisex-zapatillas-dark-grey-ne215o0b1-c11.html">
+                <img src="../../../../imagenes/new balance M2002 UNISEX .png" alt="New Balance M2002 UNISEX" title="Comprar">
+            </a>
+        </div>
+        <div class="marca">
+            <a href="https://www.zalando.es/new-balance-bbw550-zapatillas-white-ne211a0p7-a11.html">
+                <img src="../../../../imagenes/new balance 550 W.png" alt="New Balance 550 W" title="Comprar">
+            </a>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <a href="../../Zapatillas/Zapatillas.html">Atrás</a>
+    </footer>
 </body>
 </html>
